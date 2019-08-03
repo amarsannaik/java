@@ -21,7 +21,7 @@ public class DefaultStaticMethodsInInterfaceTest {
 		DefaultMethodInt dfInt = new DefaultMethodInt() {
 		};
 
-		// caling with object ref.. in impl class on body is provided for default method
+		// caling with object ref.. in impl class no body is provided for default method
 		assertEquals("default", dfInt.displayDefault());
 	}
 
