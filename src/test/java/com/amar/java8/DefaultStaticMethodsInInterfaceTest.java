@@ -4,7 +4,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-public class DefaultStaticMethodsInInterface {
+public class DefaultStaticMethodsInInterfaceTest {
 
 	interface DefaultMethodInt {
 		default String displayDefault() {
